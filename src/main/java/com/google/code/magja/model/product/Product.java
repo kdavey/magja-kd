@@ -71,6 +71,7 @@ public class Product extends BaseMagentoModel {
         mapping.setProperty("sku", "sku");
         mapping.setProperty("name", "name");
         mapping.setProperty("cost", "cost");
+        mapping.setProperty("status", "enabled");
         mapping.setProperty("price", "price");
         mapping.setProperty("short_description", "shortDescription");
         mapping.setProperty("description", "description");
